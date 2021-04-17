@@ -1,0 +1,26 @@
+{
+  "name": "itastakers-guides",
+  "version": "0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "private": true,
+  "dependencies": {
+    "next": "^10.0.8-canary.9",
+    "nextra": "^0.4.1",
+    "nextra-theme-docs": "^1.1.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
